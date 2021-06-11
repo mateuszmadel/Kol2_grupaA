@@ -1,0 +1,6 @@
+<div class="container elems ">
+  <div *ngFor="let order of orders$">
+    <app-orders-item-mm [title]="order.title" [text]="order.text" [image]="order.image" [price]="order.price">
+    </app-orders-item-mm>
+  </div>
+</div>
