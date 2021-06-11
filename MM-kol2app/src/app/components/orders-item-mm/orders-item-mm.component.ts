@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class OrdersItemMMComponent implements OnInit {
 
-
+  @Input() id?: string;
   @Input() title?: string;
   @Input() text?: string;
   @Input() image?: string;
